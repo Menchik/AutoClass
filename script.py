@@ -1,9 +1,9 @@
 from selenium import webdriver
 from selenium.webdriver.common.keys import Keys
 
-import datetime
+#import datetime
 import time
-import os
+#import os
 import keyboard
 
 class meet_Bot:
@@ -62,16 +62,3 @@ class meet_Bot:
         enter_Reunion = bot.find_element_by_xpath(
             "/html/body/div[1]/c-wiz/div/div/div[9]/div[3]/div/div/div[2]/div/div[1]/div[2]/div/div[2]/div/div[1]/div[1]/span")
         enter_Reunion.click()
-
-
-
-
-
-obj = meet_Bot()
-obj.loginGmail("emial@ufms.br", "senha")
-
-aulaED = "https://meet.google.com/qqd-rhrr-unh?pli=1&authuser=2"
-obj.joinClassRoom(aulaED)
-
-
-

@@ -1,5 +1,4 @@
-import script
-import webbrowser
+from script import meet_Bot
 from datetime import datetime, timedelta
 import calendar
 
